@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c27266fcced96a4c84524908d32ded9, type: 3}
+  m_Name: Latitude-Longitude Net
+  m_EditorClassIdentifier: 
+  accuracies:
+    latitude: 1
+    longitude: 1
+  steps:
+    latitude: 5
+    longitude: 5
+  rotAngles: {x: 0, y: -90, z: 90}
+  objCoordLine: {fileID: 0}
+  scaleCoefficient: 0.01
